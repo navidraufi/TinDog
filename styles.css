@@ -1,0 +1,184 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+#title {
+  background-color: #ff4c68;
+  overflow: hidden;
+  height: 500px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.637);
+  transition: 0.3s;
+}
+.navbar {
+  background-color: #ff4c68;
+}
+.nav-link:hover {
+  color: white;
+  size: 2;
+}
+
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.705);
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.dog-photo {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#dog {
+  width: 60%;
+  margin-left: 5%;
+  padding-bottom: 3%;
+  margin-bottom: 4%;
+}
+
+.row {
+  margin-top: 10%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5;
+}
+#dog-intro {
+  color: #fff;
+}
+
+.dowload-button {
+  margin-top: 5%;
+  padding: 1%;
+  margin: 2%;
+  width: 30%;
+}
+
+#testimonials {
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+  margin-top: 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1100px) {
+  #title {
+    height: fit-content;
+  }
+
+  #dog {
+    position: static;
+    transform: rotate(0);
+    margin-top: 10%;
+  }
+  .row {
+    text-align: center;
+  }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.cta-items {
+  padding: 10%;
+}
+
+.dowload-button-footer {
+  height: 5%;
+  width: 20%;
+  margin: 2.5% 1% 3% 1%;
+}
+
+.footer-title {
+  padding-top: 5%;
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+}
+.footer-items {
+  margin: 5%;
+}
+.footer-text {
+  margin-top: 0.3%;
+  font-family: "Montserrat";
+  color: gray;
+}
